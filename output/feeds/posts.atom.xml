@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>from error import optimal - posts</title><link href="/" rel="alternate"></link><link href="/feeds/posts.atom.xml" rel="self"></link><id>/</id><updated>2017-01-10T23:06:00+08:00</updated><entry><title>First post</title><link href="/first-post.html" rel="alternate"></link><published>2017-01-10T23:06:00+08:00</published><updated>2017-01-10T23:06:00+08:00</updated><author><name>Wu Yuntao</name></author><id>tag:None,2017-01-10:/first-post.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>from error import optimal - posts</title><link href="https://wuyuntao.github.io/blog/" rel="alternate"></link><link href="https://wuyuntao.github.io/blog/feeds/posts.atom.xml" rel="self"></link><id>https://wuyuntao.github.io/blog/</id><updated>2017-01-10T23:06:00+08:00</updated><entry><title>First post</title><link href="https://wuyuntao.github.io/blog/first-post.html" rel="alternate"></link><published>2017-01-10T23:06:00+08:00</published><updated>2017-01-10T23:06:00+08:00</updated><author><name>Wu Yuntao</name></author><id>tag:wuyuntao.github.io,2017-01-10:/blog/first-post.html</id><summary type="html">
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;

@@ -20,6 +20,4 @@ Initialize blog with pelican
 Publish post to blog
 ---------------------
 
-* Run `pelican content`.
-* Switch to the `output` directory and run `python -m pelican.server`.
-* Run `ghp-import output` to publish content to `Github`
+* Run `make github` to publish content to `github`
