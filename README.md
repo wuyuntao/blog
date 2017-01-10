@@ -1,14 +1,8 @@
-jupyter-blog
+from error import optimal
 ---------------------
 
-This is an example repo that shows a minimal configuration that allows you to create a personal blog using Jupyter notebooks.  
-
-See [this](https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/) blog post for more details, and a guide on how to setup and deploy a blog.
-
-Reproducing this example
+Initialize blog with pelican
 ---------------------
-
-You can reproduce this setup on your own computer by following the steps below:
 
 * Create a virtualenv.
 * Install everything in `requirements.txt`.
@@ -22,3 +16,10 @@ You can reproduce this setup on your own computer by following the steps below:
 * Edit pelicanconf.py to the lines that activate the `pelican-ipynb` plugin.
 * Run `pelican content`.
 * Switch to the `output` directory and run `python -m pelican.server`.
+
+Publish post to blog
+---------------------
+
+* Run `pelican content`.
+* Switch to the `output` directory and run `python -m pelican.server`.
+* Run `ghp-import output` to publish content to `Github`

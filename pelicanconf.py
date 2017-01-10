@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'me'
-SITENAME = 'Blog'
+AUTHOR = 'Wu Yuntao'
+SITENAME = 'from error import optimal'
 SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'America/Los_Angeles'
+TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = 'en'
 
