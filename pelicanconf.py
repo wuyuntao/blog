@@ -10,6 +10,7 @@ PATH = 'content'
 
 TIMEZONE = 'Asia/Shanghai'
 
+LOCALE = ('en_US', 'zh_CN')
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing

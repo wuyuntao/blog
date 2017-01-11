@@ -14,10 +14,10 @@ Initialize blog with pelican
 * Create any notebooks you want in the `content` folder.
     * Remember to create corresponding `.ipynb-meta` files.
 * Edit pelicanconf.py to the lines that activate the `pelican-ipynb` plugin.
-* Run `pelican content`.
-* Switch to the `output` directory and run `python -m pelican.server`.
 
-Publish post to blog
+Publish post to github
 ---------------------
 
+* Run `pelican content`.
+* Switch to the `output` directory and run `python -m pelican.server`.
 * Run `make github` to publish content to `github`
