@@ -4,3 +4,6 @@
 [submodule "themes"]
 	path = themes
 	url = https://github.com/getpelican/pelican-themes.git
+[submodule "extra_plugins/ipynb"]
+	path = extra_plugins/ipynb
+	url = https://github.com/danielfrg/pelican-ipynb.git
