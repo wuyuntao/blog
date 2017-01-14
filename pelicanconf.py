@@ -42,7 +42,12 @@ MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['./plugins', './extra_plugins']
 PLUGINS = ['ipynb.markup', 'i18n_subsites']
 
+# https://github.com/danielfrg/pelican-ipynbk
+# Prevents pelican from trying to parse notebook checkpoint files
+IGNORE_FILES = ['.ipynb_checkpoints']
+
 # Theme
+# https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3
 THEME = './themes/pelican-bootstrap3'
 
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
@@ -55,6 +60,7 @@ DISPLAY_CATEGORY_IN_BREADCRUMBS = True
 
 BOOTSTRAP_NAVBAR_INVERSE = True
 
+# A workaround to not use any pysegment stylesheets and use styles of ipynb plugin
 PYGMENTS_STYLE = 'none'
 
 BANNER = 'images/banner-saber.jpg'
