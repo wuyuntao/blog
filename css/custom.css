@@ -1,7 +1,18 @@
 @import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz&subset=latin);
 
 a.navbar-brand {
+  /*
   font-family: 'Yanone Kaffeesatz', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 32px;
   font-weight: bold;
+  */
+}
+
+#banner .copy {
+  background-color: transparent;
+}
+
+#banner .container h1 {
+  font-family: 'Yanone Kaffeesatz', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: none;
 }
