@@ -55,5 +55,11 @@ DISPLAY_CATEGORY_IN_BREADCRUMBS = True
 
 BOOTSTRAP_NAVBAR_INVERSE = True
 
+PYGMENTS_STYLE = 'none'
+
+BANNER = 'images/banner-saber.jpg'
+#BANNER_SUBTITLE = 'Life is a big training data set to learn from errors and search for optimal decisions'
+BANNER_ALL_PAGES = True
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
