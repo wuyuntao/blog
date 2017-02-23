@@ -38,7 +38,7 @@
 
 **DVM 服务器框架** (2013-08 ~ 2017-02)
 
-* DVM 是基于 Actor 模型（如 [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language) 和 [Akka](http://akka.io/)）的高性能服务端框架，提供了简单高效的并发和分布式编程体验。
+* DVM 是基于 Actor 模型（如 [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)) 和 [Akka](http://akka.io/)）的高性能服务端框架，提供了简单高效的并发和分布式编程体验。
   * 支持每秒百万级的本地 actor 消息通信。
   * 支持基于 Kafka + Protobuf 的分布式 actor 消息通信。
   * 支持基于 Event-Sourcing + PostgreSQL 的持久化方案。
