@@ -1,0 +1,7 @@
+body { font-size: 0.525em; }
+
+h1, h2, h3, h4, h5, h6 { border-bottom: 1px solid #eee; }
+
+a { color: #4078c0; }
+
+a[href]:after { content : ""; }

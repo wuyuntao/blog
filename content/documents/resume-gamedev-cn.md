@@ -1,4 +1,4 @@
-# 武云焘
+## 武云焘
 
 * 出生年月： 1984-11
 * 电话： 13788986667
@@ -6,7 +6,7 @@
 * 主页： https://github.com/wuyuntao
 * 自我评价： 经验丰富的游戏服务端程序员。熟悉游戏逻辑业务，能和制作人、策划以及客户端程序员协调需求和技术，并带领服务端团队完成开发任务。
 
-# 工作技能
+## 工作技能
 
 * 编程语言：
   * 主要： C# (4年)、Node.js (7年)
@@ -20,7 +20,7 @@
   * 服务端： Actor 并发编程模型、Event-Sourcing 编程模式、帧同步和客户端预测+航位推算等网络同步算法  
   * 游戏逻辑：事件驱动式的行为树、NavMesh 寻路算法、2D 碰撞检测算法和射线检测算法
 
-# 主要项目经验
+## 主要项目经验
 
 **《天天撸啊撸》服务器** (2014-03 ~ 2015-12)
 
@@ -31,14 +31,14 @@
 
 * 基于 Unity 的 3D 顶视图车辆射击类 MOBA 游戏，灵感来自于“守望先锋”+“赤色要塞”。玩家控制的车辆可以通过射击或撞击，来破坏对方玩家的车辆。游戏的玩法包括死斗，护送和占地等。
 * 我独立实现了基于客户端预测+航位推算的网络同步算法，并负责和服务端团队一起开发基于 PhysX 的车辆物理模型和其他游戏逻辑。
-* **[Nostradamus](https://github.com/wuyuntao/Nostradamus)** 是此项目网络同步算法的开源版本。
+* [Nostradamus](https://github.com/wuyuntao/Nostradamus) 是此项目网络同步算法的开源版本。
   * 基于 Bullet3D 物理引擎实现，相比 Unity 深度绑定的 PhysX，可以更好的实现位置误差纠正算法。
   * 基于 Event-Sourcing 模式同步客户端和服务端的状态。
   * 用 Reliable-UDP 实现取代 TCP，可大幅提升网络稳定性。
 
 **DVM 服务器框架** (2013-08 ~ 2017-02)
 
-* DVM 是基于 Actor 模型（如 [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)) 和 [Akka](http://akka.io/)）的高性能服务端框架，提供了简单高效的并发和分布式编程体验。
+* DVM 是基于 Actor 模型（如 [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language) 和 [Akka](http://akka.io/)）的高性能服务端框架，提供了简单高效的并发和分布式编程体验。
   * 支持每秒百万级的本地 actor 消息通信。
   * 支持基于 Kafka + Protobuf 的分布式 actor 消息通信。
   * 支持基于 Event-Sourcing + PostgreSQL 的持久化方案。
@@ -48,7 +48,7 @@
 
 * [行为树](http://www.behaviac.com/concepts/)是一种可视化的编程工具，通常用在角色AI、角色技能、关卡逻辑等，在多个游戏项目中都被重度使用，可极大提升游戏设计的灵活性和开发效率。
 * 我独立开发了行为树的基础框架和基本节点，和策划确认行为树节点需求，以及负责和服务端团队一起开发具体的行为树节点。
-* **[BehaveAsSakura](https://github.com/wuyuntao/BehaveAsSakura)** 是此行为树框架的开源版本。
+* [BehaveAsSakura](https://github.com/wuyuntao/BehaveAsSakura) 是此行为树框架的开源版本。
   * 支持在 C# 服务端和 Unity 客户端运行，且保证运行结果一致。
   * 支持数据驱动，即可热更新行为树逻辑。
   * 支持基于 Unity Editor 的可视化编程界面，以便在运行时查看行为树状态和编辑行为树属性。
@@ -65,7 +65,7 @@
   * 支持动态障碍物的添加、移除和层级设置。
 * 我负责和服务端团队一起实现 NavMesh 寻路库。
 
-# 工作经验
+## 工作经验
 
 **上海涵凌网络科技股份有限公司 服务端程序员** (2013-08 ~ 2017-02)
 
@@ -83,6 +83,6 @@
 
 * 开发和维护公司内部网站。
 
-# 教育经验
+## 教育经验
 
 **北京理工大学 自动控制系 自动化专业 本科学位** (2003-09 ~ 2007-07)
